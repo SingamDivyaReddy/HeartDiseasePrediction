@@ -1,37 +1,59 @@
-# Heart Disease Prediction Streamlit App
+# ❤️ Heart Disease Prediction System
 
-This repository contains the codebase for the **Heart Disease Prediction Streamlit App**. The app allows users to predict the likelihood of certain diseases based on input parameters.
+A machine learning-based web application that predicts the risk of heart disease using various health indicators, aimed at providing early diagnosis support for healthcare professionals.
 
-## Project Overview
-The primary goal of this app is to provide a user-friendly interface for predicting diseases. The project includes:
-- **Streamlit App**: `app.py` - The main file for running the Streamlit app.
-- **Training Notebooks**: Contains Jupyter notebooks used to train models.
-- **Datasets**: The datasets used for training the models are provided in the `datasets` folder.
+## 🔍 Features
 
-## Model and Accuracy
-For heart disease prediction, we used Logistic Regression, achieving an accuracy of **85%** on the test data.
+- Predicts heart disease risk using ML models like:
+  - Logistic Regression
+  - Random Forest
+  - Support Vector Machine (SVM)
+- Interactive dashboard for real-time input and results
+- Visualizations for data insights using Matplotlib and Seaborn
+- User-friendly interface built with **Streamlit**
 
-## Installation
-To set up the project, follow these steps:
+## 🧠 Tech Stack
 
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/your-username/Multiple-Disease-Prediction-App.git
-    ```
+- **Language:** Python
+- **Libraries:** Pandas, Scikit-learn, Matplotlib, Seaborn
+- **Framework:** Streamlit
 
-2. Navigate to the project directory:
-    ```bash
-    cd Multiple-Disease-Prediction-App
-    ```
+## 📦 Installation & Run Locally
 
-3. Install the required dependencies for the Streamlit app:
-    ```bash
-    pip install -r requirements.txt
-    ```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SingamDivyaReddy/HeartDiseasePrediction.git
+   cd HeartDiseasePrediction
+   ```
 
-4. Additional libraries may be needed to run the Jupyter notebooks. Install them as needed.
+2. **Create a virtual environment (optional but recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-## Running the App
-To start the Streamlit app, use the following command:
-```bash
-streamlit run app.py
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Streamlit app**
+   ```bash
+   streamlit run app.py
+   ```
+
+## 🩺 Use Case
+
+- Helps doctors and patients detect heart disease risk early
+- Can be used for **healthcare awareness** and **clinical support tools**
+- Supports multiple machine learning algorithms for comparative analysis
+
+## 📊 Dataset
+
+- The model is trained on publicly available heart disease datasets (e.g., UCI repository).
+- Features used include: age, blood pressure, cholesterol, chest pain type, etc.
+
+## 👩‍💻 Author
+
+- **Divya Reddy** – [GitHub](https://github.com/SingamDivyaReddy)
+
