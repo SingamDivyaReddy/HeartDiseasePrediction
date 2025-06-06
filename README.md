@@ -18,6 +18,16 @@ A machine learning-based web application that predicts the risk of heart disease
 - **Libraries:** Pandas, Scikit-learn, Matplotlib, Seaborn
 - **Framework:** Streamlit
 
+## 📈 Model Performance
+
+| Model               | Accuracy |
+|--------------------|----------|
+| Logistic Regression | 85.2%    |
+| Random Forest       | 88.7%    |
+| SVM (Linear Kernel) | 83.5%    |
+
+> 📊 Accuracy may vary slightly based on dataset splits and preprocessing steps.
+
 ## 📦 Installation & Run Locally
 
 1. **Clone the repository**
@@ -53,7 +63,10 @@ A machine learning-based web application that predicts the risk of heart disease
 - The model is trained on publicly available heart disease datasets (e.g., UCI repository).
 - Features used include: age, blood pressure, cholesterol, chest pain type, etc.
 
+## 🏆 Achievements
+
+Runner-up in **ZENITH 2024**, organized by Scope Club at MLRIT, for presenting this project.
+
 ## 👩‍💻 Author
 
 - **Divya Reddy** – [GitHub](https://github.com/SingamDivyaReddy)
-
