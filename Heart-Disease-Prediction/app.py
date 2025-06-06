@@ -336,8 +336,8 @@ if selected == "About Us":
         ### We aim to harness technology for better health management.
 
         #### Connect with the Developer:
-        - [GitHub](https://github.com/HarshitSuru/)
-        - [LinkedIn](https://www.linkedin.com/in/suru-harshit-4863372bb)
-        - Email: [suruharshit2005@gmail.com](mailto:suruharshit2005@gmail.com)
+        - [GitHub](https://github.com/SingamDivyaReddy/)
+        - [LinkedIn](https://www.linkedin.com/in/divya-reddy-singam-ab88b72ba/)
+        - Email: [singamdivya04@gmail.com](mailto:singamdivya04@gmail.com)
         """
     )
