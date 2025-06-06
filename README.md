@@ -63,10 +63,6 @@ A machine learning-based web application that predicts the risk of heart disease
 - The model is trained on publicly available heart disease datasets (e.g., UCI repository).
 - Features used include: age, blood pressure, cholesterol, chest pain type, etc.
 
-## 🏆 Achievements
-
-Runner-up in **ZENITH 2024**, organized by Scope Club at MLRIT, for presenting this project.
-
 ## 👩‍💻 Author
 
 - **Divya Reddy** – [GitHub](https://github.com/SingamDivyaReddy)
